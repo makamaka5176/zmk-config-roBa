@@ -73,9 +73,17 @@
         brows: brows {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp NUMBER_2>, <&macro_tap>;
+            bindings = <&kp LEFT_WIN &kp NUMBER_3>, <&macro_tap>;
 
             label = "BROWS";
+        };
+
+        cybows: cybows {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_WIN &kp NUMBER_3>, <&macro_tap>;
+
+            label = "CYBOWS";
         };
     };
 
@@ -135,10 +143,10 @@
 
         MOUSE {
             bindings = <
-&trans     &kp F2         &trans  &trans     &trans                      &trans     &mkp MB4        &kp UP_ARROW    &mkp MB5         &trans
-&kp LC(A)  &kp LC(C)      &trans  &none      &trans  &trans      &trans  &mkp MB3   &mkp MB1        &mo 5           &mkp MB2         &mo 5
-&kp LC(Z)  &kp LC(LS(T))  &trans  &kp LC(V)  &trans  &trans      &trans  &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &to 0
-&trans     &trans         &trans  &trans     &trans  &trans      &trans  &kp ENTER                                                   &to 5
+&trans     &kp F2         &trans   &trans     &trans                      &trans     &mkp MB4        &kp UP_ARROW    &mkp MB5         &trans
+&kp LC(A)  &kp LC(C)      &file    &brows     &trans  &trans      &trans  &mkp MB3   &mkp MB1        &mo 5           &mkp MB2         &mo 5
+&kp LC(Z)  &kp LC(LS(T))  &cybows  &kp LC(V)  &trans  &trans      &trans  &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &to 0
+&trans     &trans         &trans   &trans     &trans  &trans      &trans  &kp ENTER                                                   &to 5
             >;
         };
 
