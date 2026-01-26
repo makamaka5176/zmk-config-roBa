@@ -70,7 +70,8 @@
                 <&kp LEFT_WIN>,
                 <&macro_tap>,
                 <&kp NUMBER_1>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp LEFT_GUI>;
 
             label = "FILE";
         };
@@ -83,7 +84,8 @@
                 <&kp LEFT_WIN>,
                 <&macro_tap>,
                 <&kp NUMBER_3>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp LEFT_WIN>;
 
             label = "BROWS";
         };
@@ -96,7 +98,8 @@
                 <&kp LEFT_WIN>,
                 <&macro_tap>,
                 <&kp NUMBER_2>,
-                <&macro_release>;
+                <&macro_release>,
+                <&kp LEFT_GUI>;
 
             label = "CYBOWS";
         };
