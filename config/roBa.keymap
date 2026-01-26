@@ -65,7 +65,11 @@
         file: file {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp NUMBER_1 &kp LEFT_WIN>, <&macro_tap>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_WIN>,
+                <&macro_tap>,
+                <&kp NUMBER_1>;
 
             label = "FILE";
         };
@@ -73,7 +77,11 @@
         brows: brows {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp NUMBER_3>, <&macro_tap>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_WIN>,
+                <&macro_tap>,
+                <&kp NUMBER_3>;
 
             label = "BROWS";
         };
@@ -81,7 +89,11 @@
         cybows: cybows {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp NUMBER_3>, <&macro_tap>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_WIN>,
+                <&macro_tap>,
+                <&kp NUMBER_2>;
 
             label = "CYBOWS";
         };
