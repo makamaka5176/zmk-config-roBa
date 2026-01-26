@@ -69,7 +69,8 @@
                 <&macro_press>,
                 <&kp LEFT_WIN>,
                 <&macro_tap>,
-                <&kp NUMBER_1>;
+                <&kp NUMBER_1>,
+                <&macro_release>;
 
             label = "FILE";
         };
@@ -81,7 +82,8 @@
                 <&macro_press>,
                 <&kp LEFT_WIN>,
                 <&macro_tap>,
-                <&kp NUMBER_3>;
+                <&kp NUMBER_3>,
+                <&macro_release>;
 
             label = "BROWS";
         };
@@ -93,7 +95,8 @@
                 <&macro_press>,
                 <&kp LEFT_WIN>,
                 <&macro_tap>,
-                <&kp NUMBER_2>;
+                <&kp NUMBER_2>,
+                <&macro_release>;
 
             label = "CYBOWS";
         };
