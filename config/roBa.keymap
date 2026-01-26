@@ -61,6 +61,22 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        file: file {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp NUMBER_1 &kp LEFT_WIN>, <&macro_tap>;
+
+            label = "FILE";
+        };
+
+        brows: brows {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_WIN &kp NUMBER_2>, <&macro_tap>;
+
+            label = "BROWS";
+        };
     };
 
     behaviors {
