@@ -34,7 +34,7 @@
         };
 
         shift_tab {
-            bindings = <&kp LS(TAB)>;
+            bindings = <&kp RC(RA(TAB))>;
             key-positions = <12 13>;
         };
 
@@ -158,10 +158,10 @@
 
         MOUSE {
             bindings = <
-&kp ESC    &kp F2         &trans            &trans            &trans                      &trans     &mkp MB4        &kp UP_ARROW    &mkp MB5         &trans
-&kp LC(A)  &kp LC(C)      &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &trans  &trans      &trans  &mkp MB3   &mkp MB1        &mo 5           &mkp MB2         &mo 5
-&kp LC(Z)  &kp LC(LS(T))  &kp LG(NUMBER_3)  &kp LC(V)         &trans  &trans      &trans  &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &to 0
-&trans     &kp LEFT_WIN   &trans            &trans            &trans  &trans      &trans  &kp ENTER                                                   &to 5
+&kp ESC    &kp F2        &trans            &trans            &trans                      &trans     &mkp MB4        &kp UP_ARROW    &mkp MB5         &trans
+&kp LC(A)  &kp LC(C)     &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &trans  &trans      &trans  &mkp MB3   &mkp MB1        &mo 5           &mkp MB2         &mo 5
+&kp LC(Z)  &kp LC(Y)     &kp LG(NUMBER_3)  &kp LC(V)         &trans  &trans      &trans  &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &to 0
+&trans     &kp LEFT_WIN  &trans            &trans            &trans  &trans      &trans  &kp ENTER                                                   &to 5
             >;
         };
 
