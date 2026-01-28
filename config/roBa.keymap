@@ -39,18 +39,18 @@
         };
 
         muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
+            bindings = <&kp LC(W)>;
             key-positions = <11 10>;
-        };
-
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
         };
 
         eq {
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
+        };
+
+        windoutozi {
+            bindings = <&kp LS(LC(T))>;
+            key-positions = <20 21>;
         };
     };
 
@@ -158,7 +158,7 @@
 
         MOUSE {
             bindings = <
-&trans     &kp F2         &trans            &trans            &trans                      &trans     &mkp MB4        &kp UP_ARROW    &mkp MB5         &trans
+&kp ESC    &kp F2         &trans            &trans            &trans                      &trans     &mkp MB4        &kp UP_ARROW    &mkp MB5         &trans
 &kp LC(A)  &kp LC(C)      &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &trans  &trans      &trans  &mkp MB3   &mkp MB1        &mo 5           &mkp MB2         &mo 5
 &kp LC(Z)  &kp LC(LS(T))  &kp LG(NUMBER_3)  &kp LC(V)         &trans  &trans      &trans  &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &to 0
 &trans     &trans         &trans            &trans            &trans  &trans      &trans  &kp ENTER                                                   &to 5
