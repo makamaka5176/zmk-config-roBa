@@ -40,7 +40,7 @@
 
         muhennkann {
             bindings = <&kp LC(W)>;
-            key-positions = <11 10>;
+            key-positions = <11 10 38>;
         };
 
         eq {
@@ -50,7 +50,7 @@
 
         windoutozi {
             bindings = <&kp LS(LC(T))>;
-            key-positions = <20 21>;
+            key-positions = <20 21 38>;
         };
     };
 
