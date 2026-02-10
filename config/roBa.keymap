@@ -35,12 +35,12 @@
 
         shift_tab {
             bindings = <&kp RC(RA(TAB))>;
-            key-positions = <12 13>;
+            key-positions = <>;
         };
 
         muhennkann {
             bindings = <&kp LC(W)>;
-            key-positions = <11 10>;
+            key-positions = <34 35>;
         };
 
         eq {
@@ -50,7 +50,7 @@
 
         windoutozi {
             bindings = <&kp LS(LC(T))>;
-            key-positions = <20 21>;
+            key-positions = <32 33>;
         };
     };
 
