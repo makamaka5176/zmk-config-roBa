@@ -35,8 +35,8 @@
         };
 
         shift_tab {
-            bindings = <&kp RC(RA(TAB))>;
-            key-positions = <>;
+            bindings = <&kp LC(NUMBER_1)>;
+            key-positions = <0 1>;
         };
 
         muhennkann {
@@ -101,6 +101,13 @@
 
             label = "CYBOWS";
         };
+
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(NUMBER_1)>;
+            label = "NEW_MACRO";
+        };
     };
 
     behaviors {
@@ -125,7 +132,7 @@
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT INT_MUHENKAN  &lt 4 SPACE  &lt_to_layer_0 5 RA(GRAVE)      &kp BACKSPACE  &kp ENTER                             &to 1
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(NUMBER_1) PG_UP>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>;
         };
 
         FUNCTION {
