@@ -53,6 +53,11 @@
             bindings = <&kp LS(LC(T))>;
             key-positions = <32 33>;
         };
+
+        work {
+            bindings = <&work>;
+            key-positions = <8 9>;
+        };
     };
 
     macros {
@@ -102,10 +107,10 @@
             label = "CYBOWS";
         };
 
-        new_macro: new_macro {
+        work: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(NUMBER_1)>;
+            bindings = <&kp LEFT_WIN &kp LC(AT)>;
             label = "NEW_MACRO";
         };
     };
