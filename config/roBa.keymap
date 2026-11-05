@@ -206,7 +206,7 @@
             >;
         };
 
-        layer_8 {
+        aion {
             bindings = <
 &kp P           &kp Q         &kp W         &kp E                        &kp R                                                         &kp T      &kp Y  &kp U      &kp I    &kp O
 &kp LEFT_SHIFT  &kp A         &kp S         &kp D                        &kp F        &to 0                             &kp G          &kp H      &kp J  &kp K      &kp L    &kp SLASH
@@ -217,12 +217,12 @@
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>;
         };
 
-        layer_9 {
+        aion2 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4  &kp R                       &kp T      &mkp MB4        &kp UP_ARROW    &mkp MB5         &trans
-&kp N5        &kp NUMBER_6  &kp N7            &kp N8        &trans  &trans      &trans  &mkp MB3   &mkp MB1        &mo 5           &mkp MB2         &mo 5
-&kp LC(Z)     &kp LC(Y)     &kp LG(NUMBER_3)  &kp LC(V)     &trans  &trans      &trans  &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &to 0
-&trans        &kp LEFT_WIN  &trans            &trans        &trans  &trans      &trans  &kp ENTER                                                   &to 5
+&kp NUMBER_1  &kp NUMBER_2  &kp W             &kp NUMBER_3  &kp R                             &kp T      &mkp MB4        &kp UP_ARROW    &mkp MB5         &trans
+&kp N5        &kp A         &kp S             &kp D         &kp NUMBER_6  &trans      &trans  &mkp MB3   &mkp MB1        &mo 5           &mkp MB2         &mo 5
+&kp N7        &kp N8        &kp LG(NUMBER_3)  &kp LC(V)     &trans        &trans      &trans  &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &to 0
+&trans        &kp LEFT_WIN  &trans            &trans        &trans        &trans      &trans  &kp ENTER                                                   &to 5
             >;
         };
 
