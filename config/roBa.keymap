@@ -60,7 +60,7 @@
         };
 
         aion {
-            bindings = <&to 9>;
+            bindings = <&to 7>;
             key-positions = <0 1 9 8>;
         };
 
